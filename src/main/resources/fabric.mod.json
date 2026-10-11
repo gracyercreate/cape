@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "capesandessence",
+  "version": "${version}",
+  "name": "Capes and Essence",
+  "description": "Disables Mojang capes and adds the Dragon's Legacy cape.",
+  "authors": [
+    "capesandessence"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.capesandessence.CapesAndEssence"
+    ],
+    "client": [
+      "com.capesandessence.CapesAndEssenceClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "capesandessence.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

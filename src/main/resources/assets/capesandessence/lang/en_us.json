@@ -1,0 +1,7 @@
+{
+  "item.capesandessence.dragon_cape": "Dragon's Legacy",
+  "message.capesandessence.equipped": "Cape equipped",
+  "message.capesandessence.removed": "Cape removed",
+  "message.capesandessence.already_wearing": "You are already wearing this cape (Shift + Right Click to remove)",
+  "message.capesandessence.not_wearing": "You are not wearing this cape"
+}
